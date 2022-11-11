@@ -1,0 +1,3 @@
+<!--pages/info/info.wxml-->
+<navigator open-type="navigateBack" delta="1">返回上一级</navigator>
+<view wx:for="{{colorList}}" wx:key="index" class="manyboxes" style="background-color: rgba({{item}});">{{item}}</view>

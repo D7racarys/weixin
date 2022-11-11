@@ -1,0 +1,19 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+view{
+  background-color: lightpink;
+}
+view:nth-child(1){
+  background-color: lightpink;
+}
+.component{
+  color: red;
+}

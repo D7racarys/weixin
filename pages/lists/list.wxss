@@ -1,0 +1,24 @@
+/* pages/lists/list.wxss */
+/* .image1{
+  width: 400px;
+  height: 600px;
+} */
+
+/* .container1 {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+}
+.container2{
+  text-align: center;
+  width: 1000px;
+  height: 100%;
+  background-color: purple;
+} */
+
+.inputstyle{
+  border: 2px solid black;
+}
+view{
+  background-color: skyblue;
+}

@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/lists/list",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#666666",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#efefef"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "king",
+      "iconPath": "/images/together.jpg",
+      "selectedIconPath": "/images/alone.jpg"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "saber",
+      "iconPath": "/images/tradition-saber.jpg",
+      "selectedIconPath": "/images/saber.jpg"
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "sakura",
+      "iconPath": "/images/sakura.jpg",
+      "selectedIconPath": "/images/pray.jpg"
+    }]
+  }
+
+}

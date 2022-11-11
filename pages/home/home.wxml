@@ -1,0 +1,17 @@
+<!--pages/home/home.wxml-->
+<!-- <image src="/images/alone.jpg " mode="heightFix"></image>
+<button bindtap="tap2" type="primary">点击发起POST请求</button>
+<navigator url="/pages/message/message" open-type="switchTab">导航到消息栏</navigator>
+<navigator url="/pages/info/info" open-type="navigate">导航到info</navigator>
+<button bindtap="gotomessage">跳转到message页面</button>
+<button bindtap="xtransfer">跳转info并传参</button> -->
+<!-- <wxs module="m1">
+  module.exports.toUpper = function(str){
+    return str.toUpperCase()
+  }
+</wxs> -->
+<wxs src="/utils/tools.wxs" module="m1"></wxs>
+<view class="component">{{m1.toUpper(username)}}</view>
+<my-test1></my-test1>
+
+

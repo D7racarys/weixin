@@ -1,0 +1,39 @@
+<!--pages/lists/list.wxml-->
+<!-- <rich-text nodes="<h1 style='color:purple;text-align:center;line-height:120px'>Title</h1>"></rich-text> -->
+<!-- <button size="mini">normal button</button>
+<button type="warn" plain>warning</button>
+<button type="primary" plain>prief</button> -->
+<!-- <image src="/images/樱.webp" mode="aspectFill" class="image1"></image> -->
+
+<!-- <scroll-view scroll-y class="container1">
+  <view class="container2">A</view>
+</scroll-view> -->
+
+<!-- <view>{{info}}</view>
+<image src="{{imagesrc}}" mode="aspectFill"></image> -->
+
+<!-- <view>{{randomNum >=5?'数字大于或等于5':'数字小于5'}}</view> -->
+
+<!-- <button type="warn" bindtap="btnevent">警告</button> -->
+
+<!-- <button type="primary" bindtap="countincrease">+1</button> -->
+
+<!-- <button type="primary" bindtap="btn1" data-info="{{1024}}">传递参数</button> -->
+
+<!-- <input bindinput="input1"></input> -->
+
+<!-- <input bindinput="input2" class="inputstyle" value="请输入你所期待的x值"></input> -->
+
+<!-- <view wx:if="{{type == 1}}">male</view>
+<view wx:elif="{{type == 2}}">famale</view>
+<view wx:else>unknow</view> -->
+
+<!-- <view hidden="{{flag}}">你猜在不在</view> -->
+
+<view wx:for="{{arr}}" wx:key="index">
+  索引是:{{index}}，项为{{item}}
+</view>
+
+<!-- <view wx:for="{{arr}}" wx:for-index="arrindex" wx:for-item="arritem">
+  索引是:{{arrindex}}，项为{{arritem}}
+</view> -->
